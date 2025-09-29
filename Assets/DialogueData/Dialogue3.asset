@@ -15,4 +15,5 @@ MonoBehaviour:
   text: 'Only two this time
 
     2nd line :)'
+  charName: Aiden
   mood: 4

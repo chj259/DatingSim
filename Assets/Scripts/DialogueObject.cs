@@ -1,19 +1,28 @@
 using UnityEditor;
 using UnityEngine;
-
-[CreateAssetMenu(menuName = "Dialogue/DialogueObject")]
 public class DialogueObject : ScriptableObject
 {
-    public enum Mood
+    public enum Emotion
     {
         Happy,
         Sad,
         Angry,
         Disgust,
-        Neutral
+        Bored
     }
-    [SerializeField][TextArea] private string text;
-    [SerializeField] private Mood mood;
+
+    public enum Person
+    {
+        You,
+        Aiden,
+        Narrator
+    }
+    [SerializeField] [TextArea] private string text;
+    [SerializeField] private Person charName;
+    [SerializeField] private Emotion mood;
 
     public string Text => text;
+
+    public Person CharName => charName;
+    public Emotion Mood => mood; 
 }
