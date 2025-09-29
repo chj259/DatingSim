@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52e0fe373a2954130b48376851a2eaad, type: 3}
+  m_Name: Scene1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: cbd59ebf12edf4fed92ee5b294e819dd, type: 2}
+  - {fileID: 11400000, guid: 693e6817bc1164514b11108040f11a15, type: 2}
+  - {fileID: 11400000, guid: 4d9e393a471f343ca81c38cc32fa3a43, type: 2}
