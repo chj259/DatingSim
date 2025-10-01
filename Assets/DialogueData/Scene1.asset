@@ -13,6 +13,30 @@ MonoBehaviour:
   m_Name: Scene1
   m_EditorClassIdentifier: 
   dialogues:
-  - {fileID: 11400000, guid: cbd59ebf12edf4fed92ee5b294e819dd, type: 2}
-  - {fileID: 11400000, guid: 693e6817bc1164514b11108040f11a15, type: 2}
-  - {fileID: 11400000, guid: 4d9e393a471f343ca81c38cc32fa3a43, type: 2}
+  - text: Tell me. For whom do you fight?
+    note: '*Note: This dialogue is from a cutscene in a game I like.'
+    charName: 2
+    mood: 4
+  - text: I fight for Eorzea.
+    note: 
+    charName: 0
+    mood: 4
+  - text: 'Hmph! How very glib. And do you believe in Eorzea? '
+    note: 
+    charName: 2
+    mood: 4
+  - text: Eorzea's unity is forged of falsehoods. Its city-states are built on deceit.
+      And its faith is an instrument of deception.
+    note: 
+    charName: 2
+    mood: 4
+  - text: It is naught but a cobweb of lies. To believe in Eorzea is to believe in
+      nothing. In Eorzea, the beast tribes often summon gods to fight in their stead--though
+      your comrades only rarely respond in kind.
+    note: 
+    charName: 2
+    mood: 4
+  - text: Which is strange, is it not?
+    note: 
+    charName: 2
+    mood: 4

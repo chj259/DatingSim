@@ -8,6 +8,7 @@ public class DialogueController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private TMP_Text dialogueLabel;
     [SerializeField] private TMP_Text nameLabel;
+    [SerializeField] private TMP_Text noteLabel;
     [SerializeField] private SceneObject sceneObject;
     private DialogueObject[] dialogues;
     private TypingEffect typingEffect;
@@ -32,6 +33,8 @@ public class DialogueController : MonoBehaviour
             case DialogueObject.Person.Narrator:
                 isNarrator = true;
                 return String.Empty;
+            case DialogueObject.Person.GaiusVanBaelsar:
+                return "Gaius Van Baelsar";
             default:
                 Debug.LogError("Invalid name");
                 return String.Empty;
@@ -48,6 +51,7 @@ public class DialogueController : MonoBehaviour
         foreach (DialogueObject dialogue in dialogueObjects)
         {
             nameLabel.text = String.Empty;
+            noteLabel.text = String.Empty;
             nameLabel.text = GetName(dialogue);
             //Debug.Log(isNarrator);
             
@@ -62,9 +66,9 @@ public class DialogueController : MonoBehaviour
             }
 
             yield return typingEffect.Run(textToPrint, dialogueLabel);
-
+            yield return typingEffect.Run(dialogue.Note, noteLabel,50);
             yield return new WaitUntil(() =>
-                            Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0));
+                            Input.GetKeyDown(KeyCode.Space));
         }
     }
 
