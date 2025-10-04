@@ -20,23 +20,23 @@ MonoBehaviour:
   - text: I fight for Eorzea.
     note: 
     charName: 0
-    mood: 4
+    mood: 3
   - text: 'Hmph! How very glib. And do you believe in Eorzea? '
     note: 
     charName: 2
-    mood: 4
+    mood: 2
   - text: Eorzea's unity is forged of falsehoods. Its city-states are built on deceit.
       And its faith is an instrument of deception.
     note: 
     charName: 2
-    mood: 4
+    mood: 2
   - text: It is naught but a cobweb of lies. To believe in Eorzea is to believe in
       nothing. In Eorzea, the beast tribes often summon gods to fight in their stead--though
       your comrades only rarely respond in kind.
     note: 
     charName: 2
-    mood: 4
+    mood: 1
   - text: Which is strange, is it not?
     note: 
     charName: 2
-    mood: 4
+    mood: 0

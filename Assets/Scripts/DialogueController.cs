@@ -2,6 +2,8 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using System;
+using UnityEditor.Experimental.GraphView;
+using Unity.VisualScripting;
 
 public class DialogueController : MonoBehaviour
 {
@@ -10,13 +12,16 @@ public class DialogueController : MonoBehaviour
     [SerializeField] private TMP_Text nameLabel;
     [SerializeField] private TMP_Text noteLabel;
     [SerializeField] private SceneObject sceneObject;
+    [SerializeField] private GameObject portrait;
     private DialogueObject[] dialogues;
     private TypingEffect typingEffect;
     private Boolean isNarrator;
+    private SpriteController portraitController;
 
     private void Start()
     {
         typingEffect = GetComponent<TypingEffect>();
+        portraitController = portrait.GetComponent<SpriteController>();
         dialogues = sceneObject.getDialogues();
         ShowDialogue(sceneObject);
     }
@@ -50,6 +55,8 @@ public class DialogueController : MonoBehaviour
     {
         foreach (DialogueObject dialogue in dialogueObjects)
         {
+            portraitController.ChangeMood(dialogue);
+
             nameLabel.text = String.Empty;
             noteLabel.text = String.Empty;
             nameLabel.text = GetName(dialogue);
