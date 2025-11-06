@@ -336,6 +336,8 @@ RectTransform:
   - {fileID: 2053102419}
   - {fileID: 423079069}
   - {fileID: 649788534}
+  - {fileID: 1773641709}
+  - {fileID: 1648963662}
   m_Father: {fileID: 1505187721}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -432,13 +434,14 @@ GameObject:
   - component: {fileID: 392775591}
   - component: {fileID: 392775595}
   - component: {fileID: 392775596}
+  - component: {fileID: 392775597}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &392775591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,9 +516,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1648963662}
-  - {fileID: 1773641709}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -552,6 +553,18 @@ MonoBehaviour:
   noteLabel: {fileID: 484636268}
   sceneObject: {fileID: 11400000, guid: e9bc8b3250e5f45d5a1f6d72665abb6e, type: 2}
   portrait: {fileID: 1753155861}
+--- !u!225 &392775597
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392775590}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &423011996
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,7 +1366,6 @@ GameObject:
   - component: {fileID: 947748629}
   - component: {fileID: 947748628}
   - component: {fileID: 947748627}
-  - component: {fileID: 947748631}
   - component: {fileID: 947748632}
   - component: {fileID: 947748633}
   - component: {fileID: 947748634}
@@ -1362,9 +1374,6 @@ GameObject:
   - component: {fileID: 947748637}
   - component: {fileID: 947748636}
   - component: {fileID: 947748652}
-  - component: {fileID: 947748651}
-  - component: {fileID: 947748650}
-  - component: {fileID: 947748649}
   - component: {fileID: 947748648}
   - component: {fileID: 947748647}
   - component: {fileID: 947748646}
@@ -1509,6 +1518,14 @@ GameObject:
   - component: {fileID: 947748691}
   - component: {fileID: 947748690}
   - component: {fileID: 947748689}
+  - component: {fileID: 947748788}
+  - component: {fileID: 947748789}
+  - component: {fileID: 947748790}
+  - component: {fileID: 947748791}
+  - component: {fileID: 947748792}
+  - component: {fileID: 947748793}
+  - component: {fileID: 947748794}
+  - component: {fileID: 947748795}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1545,8 +1562,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
+    x: 65
+    y: 67.982704
     width: 75.979996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1557,16 +1574,19 @@ MonoBehaviour:
   eventHandler: {fileID: 947748623}
   commandList:
   - {fileID: 947748638}
+  - {fileID: 947748790}
   - {fileID: 947748630}
   - {fileID: 947748627}
   - {fileID: 947748628}
-  - {fileID: 947748629}
   - {fileID: 947748632}
-  - {fileID: 947748631}
+  - {fileID: 947748629}
+  - {fileID: 947748791}
+  - {fileID: 947748792}
   - {fileID: 947748633}
   - {fileID: 947748634}
   - {fileID: 947748639}
   - {fileID: 947748637}
+  - {fileID: 947748788}
   - {fileID: 947748653}
   suppressAllAutoSelections: 0
 --- !u!114 &947748625
@@ -1582,11 +1602,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2123.5479, y: 99.99846}
+  scrollPos: {x: 147.20511, y: 181}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.9769999
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1594,8 +1614,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 947748733}
-  selectedCommands: []
+  - {fileID: 947748636}
+  selectedCommands:
+  - {fileID: 947748793}
   variables:
   - {fileID: 947748652}
   description: 
@@ -1695,10 +1716,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: "Looking up, you see a guy who looks like he was pulled directly out
-    of an aesthetic Pinterest post. In his hand, an open copy of \u2018The Woman
-    Destroyed.\u2019 Evidently, he was reading it while walking. He puts out his
-    hand to help you up."
+  storyText: 'Looking up, you see a guy who looks like he was pulled directly out
+    of an aesthetic Pinterest post. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1727,34 +1746,6 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "The Sakura Blossoms are in full bloom, couples are lining the streets,
     and you\u2019ve just left another failed Bumble date. "
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &947748631
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  storyText: "Shit, are you okay! I\u2019m so sorry, I would never purposely push
-    a woman."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1871,7 +1862,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 220.9399
-    y: 74
+    y: 76
     width: 109.71
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1881,9 +1872,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 947748651}
-  - {fileID: 947748650}
-  - {fileID: 947748649}
+  - {fileID: 947748789}
+  - {fileID: 947748793}
+  - {fileID: 947748795}
+  - {fileID: 947748794}
   - {fileID: 947748648}
   - {fileID: 947748642}
   - {fileID: 947748643}
@@ -2178,89 +2170,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &947748649
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 17
-  indentLevel: 0
-  storyText: What are you going to get?
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 0
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &947748650
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 16
-  indentLevel: 0
-  storyText: "But before that, what would you like to order? On me, of course. I\u2019m
-    probably gonna get an Iced Lavender Matcha with Oatmilk. And you?"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &947748651
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  storyText: "I\u2019m so glad you agreed to let me take you out. You seem really
-    deep, I can\u2019t wait to chat with you."
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &947748652
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8435,6 +8344,237 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &947748788
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 194
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
+--- !u!114 &947748789
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 195
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
+--- !u!114 &947748790
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 196
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
+--- !u!114 &947748791
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 197
+  indentLevel: 0
+  storyText: "In his hand, an open copy of \u2018The Woman Destroyed.\u2019 Evidently,
+    he was reading it while walking. He puts out his hand to help you up."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &947748792
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 198
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Aiden Sad: Shit, are you okay! I\u2019m so sorry, I would never purposely
+      push a woman."
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &947748793
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 199
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Aiden Happy: I\u2019m so glad you agreed to let me take you out.
+      You seem really deep, I can\u2019t wait to chat with you.\nBut before that,
+      what would you like to order? On me, of course. I\u2019m probably gonna get
+      an Iced Lavender Matcha with Oatmilk. And you?"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &947748794
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 200
+  indentLevel: 0
+  storyText: What are you going to get?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &947748795
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 201
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1989158908}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1013483221
 GameObject:
   m_ObjectHideFlags: 0
@@ -8817,7 +8957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volume: 1
+  volume: 0
   loop: 1
   targetAudioSource: {fileID: 0}
   audioMode: 0
@@ -8861,7 +9001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 0.25
+  fadeDuration: 0.05
   continueButton: {fileID: 695469355}
   dialogCanvas: {fileID: 1502046432}
   nameText: {fileID: 99241353}
@@ -9023,6 +9163,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 375920569}
+  - {fileID: 1989158909}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1567940300
@@ -9218,7 +9359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -750.0001, y: 0}
+  m_AnchoredPosition: {x: -750, y: 69}
   m_SizeDelta: {x: 1500, y: 335}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1648963661
@@ -9244,20 +9385,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648963661}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.078164, y: 1.078164, z: 1.078164}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 423011997}
   - {fileID: 1013483222}
   - {fileID: 1895775705}
   - {fileID: 484636270}
-  m_Father: {fileID: 392775594}
+  m_Father: {fileID: 375920569}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 64}
+  m_AnchoredPosition: {x: 0, y: 69.00248}
   m_SizeDelta: {x: 1685.7576, y: 330}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &1753155861
@@ -9377,6 +9518,7 @@ GameObject:
   - component: {fileID: 1773641709}
   - component: {fileID: 1773641711}
   - component: {fileID: 1773641710}
+  - component: {fileID: 1773641712}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -9393,15 +9535,15 @@ RectTransform:
   m_GameObject: {fileID: 1773641708}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9777669, y: 0.9777669, z: 0.9777669}
+  m_LocalScale: {x: 1.054193, y: 1.054193, z: 1.054193}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 392775594}
+  m_Father: {fileID: 375920569}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 6.587158, y: 556.5582}
-  m_SizeDelta: {x: 92.09204, y: 1192.7998}
+  m_AnchoredPosition: {x: 7.102051, y: 600.061}
+  m_SizeDelta: {x: -47.118286, y: 1192.7998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1773641710
 MonoBehaviour:
@@ -9416,7 +9558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9441,6 +9583,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773641708}
   m_CullTransparentMesh: 1
+--- !u!114 &1773641712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773641708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d1cc1a7713147d28350b59d63e175a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1895775704
 GameObject:
   m_ObjectHideFlags: 0
@@ -9667,7 +9821,7 @@ GameObject:
   - component: {fileID: 1989158909}
   - component: {fileID: 1989158908}
   m_Layer: 0
-  m_Name: Character
+  m_Name: Aiden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9707,12 +9861,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989158907}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1505187721}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2053102418
 GameObject:
@@ -9800,5 +9954,4 @@ SceneRoots:
   - {fileID: 740769487}
   - {fileID: 947748626}
   - {fileID: 1502046433}
-  - {fileID: 1989158909}
   - {fileID: 1505187721}
