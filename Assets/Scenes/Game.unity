@@ -1217,7 +1217,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
+  m_AnchoredPosition: {x: 7.1021, y: -1100}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &752666232
@@ -1384,7 +1384,6 @@ GameObject:
   - component: {fileID: 947748641}
   - component: {fileID: 947748640}
   - component: {fileID: 947748653}
-  - component: {fileID: 947748654}
   - component: {fileID: 947748688}
   - component: {fileID: 947748687}
   - component: {fileID: 947748686}
@@ -1470,10 +1469,10 @@ GameObject:
   - component: {fileID: 947748710}
   - component: {fileID: 947748709}
   - component: {fileID: 947748705}
+  - component: {fileID: 947748704}
   - component: {fileID: 947748703}
   - component: {fileID: 947748699}
   - component: {fileID: 947748695}
-  - component: {fileID: 947748691}
   - component: {fileID: 947748689}
   - component: {fileID: 947748788}
   - component: {fileID: 947748789}
@@ -1483,23 +1482,22 @@ GameObject:
   - component: {fileID: 947748793}
   - component: {fileID: 947748794}
   - component: {fileID: 947748795}
-  - component: {fileID: 947748796}
   - component: {fileID: 947748797}
-  - component: {fileID: 947748807}
-  - component: {fileID: 947748806}
+  - component: {fileID: 947748796}
+  - component: {fileID: 947748798}
+  - component: {fileID: 947748801}
+  - component: {fileID: 947748800}
+  - component: {fileID: 947748799}
   - component: {fileID: 947748805}
   - component: {fileID: 947748804}
   - component: {fileID: 947748803}
   - component: {fileID: 947748802}
-  - component: {fileID: 947748801}
-  - component: {fileID: 947748800}
-  - component: {fileID: 947748799}
-  - component: {fileID: 947748798}
+  - component: {fileID: 947748806}
+  - component: {fileID: 947748812}
+  - component: {fileID: 947748811}
   - component: {fileID: 947748810}
   - component: {fileID: 947748809}
   - component: {fileID: 947748808}
-  - component: {fileID: 947748821}
-  - component: {fileID: 947748820}
   - component: {fileID: 947748819}
   - component: {fileID: 947748818}
   - component: {fileID: 947748817}
@@ -1507,11 +1505,7 @@ GameObject:
   - component: {fileID: 947748815}
   - component: {fileID: 947748814}
   - component: {fileID: 947748813}
-  - component: {fileID: 947748812}
-  - component: {fileID: 947748811}
-  - component: {fileID: 947748824}
-  - component: {fileID: 947748823}
-  - component: {fileID: 947748822}
+  - component: {fileID: 947748837}
   - component: {fileID: 947748836}
   - component: {fileID: 947748835}
   - component: {fileID: 947748834}
@@ -1524,7 +1518,14 @@ GameObject:
   - component: {fileID: 947748827}
   - component: {fileID: 947748826}
   - component: {fileID: 947748825}
-  - component: {fileID: 947748837}
+  - component: {fileID: 947748824}
+  - component: {fileID: 947748823}
+  - component: {fileID: 947748822}
+  - component: {fileID: 947748821}
+  - component: {fileID: 947748820}
+  - component: {fileID: 947748842}
+  - component: {fileID: 947748841}
+  - component: {fileID: 947748840}
   - component: {fileID: 947748839}
   - component: {fileID: 947748838}
   m_Layer: 0
@@ -1563,8 +1564,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 65
-    y: 67.982704
+    x: 64.991936
+    y: 67.97464
     width: 75.979996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1587,6 +1588,7 @@ MonoBehaviour:
   - {fileID: 947748634}
   - {fileID: 947748639}
   - {fileID: 947748637}
+  - {fileID: 947748805}
   - {fileID: 947748788}
   - {fileID: 947748653}
   suppressAllAutoSelections: 0
@@ -1603,11 +1605,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1657.3527, y: 116.23047}
+  scrollPos: {x: -497.91476, y: 605.7016}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.43600067
+  zoom: 0.5525002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1615,9 +1617,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 947748742}
+  - {fileID: 947748713}
   selectedCommands:
-  - {fileID: 947748734}
+  - {fileID: 947748840}
   variables:
   - {fileID: 947748652}
   description: 
@@ -1777,7 +1779,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1989158908}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: a1d00eab722104ca7af4c34963ed0d49, type: 3}
+  portrait: {fileID: 3622792381989719942, guid: a1d00eab722104ca7af4c34963ed0d49, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 752666231}
@@ -1862,8 +1864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 219.9399
-    y: 72.10145
+    x: 221.9399
+    y: 74.19005
     width: 109.71
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1873,6 +1875,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 947748806}
   - {fileID: 947748789}
   - {fileID: 947748793}
   - {fileID: 947748795}
@@ -1896,9 +1899,7 @@ MonoBehaviour:
   itemId: 12
   indentLevel: 0
   storyText: "You\u2019ve just volunteered yourself for one of the most terrifying
-    adventures of all time\u2013\u2013a date with the performative male. If you wish
-    to succeed and earn a second date, try and relate to his opinions, \u201Chobbies\u201D,
-    and tastes. Good Luck!"
+    adventures of all time\u2013\u2013a date with the performative male. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1978,8 +1979,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 434.185
-    y: 148
+    x: 433.185
+    y: 149.80995
     width: 175.65
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1990,8 +1991,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748640}
-  - {fileID: 947748654}
-  - {fileID: 947748822}
+  - {fileID: 947748802}
   - {fileID: 947748683}
   - {fileID: 947748682}
   suppressAllAutoSelections: 0
@@ -2081,7 +2081,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 439
-    y: 85
+    y: 86
     width: 155.87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2092,7 +2092,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748644}
-  - {fileID: 947748823}
+  - {fileID: 947748803}
   - {fileID: 947748685}
   - {fileID: 947748684}
   suppressAllAutoSelections: 0
@@ -2132,7 +2132,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 432
-    y: 24
+    y: 26.809954
     width: 190.52
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2143,7 +2143,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748646}
-  - {fileID: 947748824}
+  - {fileID: 947748804}
   - {fileID: 947748688}
   - {fileID: 947748686}
   suppressAllAutoSelections: 0
@@ -2207,35 +2207,7 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
-  callMode: 0
---- !u!114 &947748654
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 32
-  indentLevel: 0
-  storyText: "Nice choice! I had some amazing Green Tea when I studied abroad in
-    Shanghai last summer. After you\u2019ve had the real thing, nothing beats it\u2026"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  callMode: 2
 --- !u!114 &947748657
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2352,8 +2324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1162.3822
-    y: 92.14702
+    x: 1164.3822
+    y: 91.14702
     width: 111.78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2363,10 +2335,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 947748806}
-  - {fileID: 947748805}
-  - {fileID: 947748804}
-  - {fileID: 947748810}
+  - {fileID: 947748819}
+  - {fileID: 947748818}
   - {fileID: 947748783}
   - {fileID: 947748782}
   - {fileID: 947748781}
@@ -2595,7 +2565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 892.15564
+    x: 893.9656
     y: 160.06056
     width: 157.67
     height: 40
@@ -2607,7 +2577,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748670}
-  - {fileID: 947748834}
+  - {fileID: 947748808}
   - {fileID: 947748668}
   - {fileID: 947748667}
   suppressAllAutoSelections: 0
@@ -2834,7 +2804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 894.9511
+    x: 896.143
     y: 97.05393
     width: 157.58
     height: 40
@@ -2846,7 +2816,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748675}
-  - {fileID: 947748835}
+  - {fileID: 947748809}
   - {fileID: 947748673}
   - {fileID: 947748672}
   suppressAllAutoSelections: 0
@@ -3073,7 +3043,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 898.0034
+    x: 897.1953
     y: 35.053955
     width: 156.91
     height: 40
@@ -3085,7 +3055,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748680}
-  - {fileID: 947748836}
+  - {fileID: 947748810}
   - {fileID: 947748678}
   - {fileID: 947748677}
   suppressAllAutoSelections: 0
@@ -3500,8 +3470,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 713.12
-    y: 81.75
+    x: 711.12
+    y: 81.941895
     width: 111.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3511,9 +3481,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 947748796}
-  - {fileID: 947748797}
-  - {fileID: 947748807}
+  - {fileID: 947748812}
+  - {fileID: 947748811}
   - {fileID: 947748660}
   - {fileID: 947748659}
   - {fileID: 947748658}
@@ -3715,35 +3684,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &947748691
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 191
-  indentLevel: 0
-  storyText: 'Then, Aiden hands you a small slip from his pocket.
-
-'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &947748695
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3827,6 +3767,35 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &947748704
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 163
+  indentLevel: 0
+  storyText: "You know what, you\u2019re such a poser for real! Reddit told me that
+    this was how I\u2019m supposed to act to get some bitches, but honestly, after
+    this I\u2019d rather be single. I\u2019m out >:(\n"
+  description: 
+  character: {fileID: 1989158908}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -4212,14 +4181,20 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 947748814}
+  - {fileID: 947748825}
+  - {fileID: 947748823}
+  - {fileID: 947748820}
+  - {fileID: 947748821}
+  - {fileID: 947748842}
   - {fileID: 947748695}
-  - {fileID: 947748813}
-  - {fileID: 947748691}
-  - {fileID: 947748812}
-  - {fileID: 947748811}
-  - {fileID: 947748689}
+  - {fileID: 947748824}
+  - {fileID: 947748841}
+  - {fileID: 947748840}
+  - {fileID: 947748822}
+  - {fileID: 947748839}
   - {fileID: 947748838}
+  - {fileID: 947748689}
+  - {fileID: 947748799}
   suppressAllAutoSelections: 0
 --- !u!114 &947748714
 MonoBehaviour:
@@ -4246,11 +4221,11 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 947748817}
-  - {fileID: 947748816}
-  - {fileID: 947748815}
+  - {fileID: 947748827}
+  - {fileID: 947748826}
   - {fileID: 947748699}
-  - {fileID: 947748839}
+  - {fileID: 947748800}
+  - {fileID: 947748796}
   suppressAllAutoSelections: 0
 --- !u!114 &947748715
 MonoBehaviour:
@@ -4287,8 +4262,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2872.8271
-    y: 3.9066315
+    x: 2887.3384
+    y: 8.97099
     width: 114.23
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4298,13 +4273,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 947748821}
-  - {fileID: 947748820}
-  - {fileID: 947748819}
+  - {fileID: 947748829}
   - {fileID: 947748705}
-  - {fileID: 947748818}
+  - {fileID: 947748704}
+  - {fileID: 947748828}
   - {fileID: 947748703}
-  - {fileID: 947748837}
+  - {fileID: 947748801}
+  - {fileID: 947748797}
   suppressAllAutoSelections: 0
 --- !u!114 &947748717
 MonoBehaviour:
@@ -4594,7 +4569,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2728.5222
-    y: 78.90663
+    y: 77.09668
     width: 88.83
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4610,6 +4585,7 @@ MonoBehaviour:
   - {fileID: 947748711}
   - {fileID: 947748710}
   - {fileID: 947748709}
+  - {fileID: 947748798}
   suppressAllAutoSelections: 0
 --- !u!114 &947748719
 MonoBehaviour:
@@ -4846,7 +4822,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748722}
-  - {fileID: 947748825}
+  - {fileID: 947748830}
   - {fileID: 947748720}
   - {fileID: 947748719}
   suppressAllAutoSelections: 0
@@ -5085,7 +5061,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748727}
-  - {fileID: 947748826}
+  - {fileID: 947748831}
   - {fileID: 947748725}
   - {fileID: 947748724}
   suppressAllAutoSelections: 0
@@ -5324,7 +5300,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748732}
-  - {fileID: 947748827}
+  - {fileID: 947748832}
   - {fileID: 947748730}
   - {fileID: 947748729}
   suppressAllAutoSelections: 0
@@ -5444,7 +5420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2148.3223
+    x: 2150.1323
     y: 82.90663
     width: 111.44
     height: 40
@@ -5455,11 +5431,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 947748801}
-  - {fileID: 947748800}
-  - {fileID: 947748799}
-  - {fileID: 947748798}
-  - {fileID: 947748808}
+  - {fileID: 947748834}
+  - {fileID: 947748833}
   - {fileID: 947748737}
   - {fileID: 947748736}
   - {fileID: 947748735}
@@ -5700,7 +5673,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748746}
-  - {fileID: 947748828}
+  - {fileID: 947748835}
   - {fileID: 947748744}
   - {fileID: 947748743}
   suppressAllAutoSelections: 0
@@ -5927,7 +5900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1877.019
+    x: 1878.829
     y: 87.903305
     width: 201.12
     height: 40
@@ -5939,7 +5912,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748751}
-  - {fileID: 947748829}
+  - {fileID: 947748836}
   - {fileID: 947748749}
   - {fileID: 947748748}
   suppressAllAutoSelections: 0
@@ -6166,7 +6139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1874.0714
+    x: 1873.0714
     y: 22.903328
     width: 176.42
     height: 40
@@ -6178,7 +6151,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748756}
-  - {fileID: 947748830}
+  - {fileID: 947748837}
   - {fileID: 947748754}
   - {fileID: 947748753}
   suppressAllAutoSelections: 0
@@ -6299,7 +6272,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1647.6663
-    y: 88.64702
+    y: 90.44882
     width: 111.84
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6309,9 +6282,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 947748803}
-  - {fileID: 947748802}
-  - {fileID: 947748809}
+  - {fileID: 947748814}
+  - {fileID: 947748813}
   - {fileID: 947748761}
   - {fileID: 947748760}
   - {fileID: 947748759}
@@ -6540,7 +6512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1395.9395
+    x: 1394.9395
     y: 160.40994
     width: 163.19
     height: 40
@@ -6552,7 +6524,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748768}
-  - {fileID: 947748831}
+  - {fileID: 947748815}
   - {fileID: 947748766}
   - {fileID: 947748765}
   suppressAllAutoSelections: 0
@@ -6791,7 +6763,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748773}
-  - {fileID: 947748832}
+  - {fileID: 947748816}
   - {fileID: 947748771}
   - {fileID: 947748770}
   suppressAllAutoSelections: 0
@@ -7030,7 +7002,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 947748778}
-  - {fileID: 947748833}
+  - {fileID: 947748817}
   - {fileID: 947748776}
   - {fileID: 947748775}
   suppressAllAutoSelections: 0
@@ -7294,7 +7266,7 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: I\u2019m so glad you agreed to let me take you out.
+    stringVal: "Aiden Neutral: I\u2019m so glad you agreed to let me take you out.
       You seem really deep, I can\u2019t wait to chat with you.\nBut before that,
       what would you like to order? On me, of course. I\u2019m probably gonna get
       an Iced Lavender Matcha with Oatmilk. And you?"
@@ -7376,29 +7348,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 202
+  itemId: 203
   indentLevel: 0
-  conversationText:
+  _sceneName:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: Now that we\u2019re settled, I\u2019d love to learn
-      more about you.\nSo, what do you like to do for fun? Personally, I love reading
-      and writing music. \nI\u2019ve been getting a lot of really good book recommendations
-      from my Contemporary Feminist Literature course\u2026"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+    stringVal: End
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &947748797
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7408,28 +7367,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 203
+  itemId: 202
   indentLevel: 0
-  conversationText:
+  _sceneName:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: And I\u2019ve just only started playing the guitar,
-      but my mom says I\u2019m really good. I think I might start a band!\nGotta
-      escape corporate America, right?!"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+    stringVal: GameOver
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &947748798
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7439,27 +7386,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 213
+  itemId: 204
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: I don\u2019t really know what that means, but I think
-      I\u2019m just that good of an ally."
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &947748799
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7469,29 +7400,82 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 212
+  itemId: 207
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: I really love it there, it\u2019s such an accepting
-      space. They let me join cause apparently they \u201Care not intimidated by
-      me.\""
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
 --- !u!114 &947748800
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 206
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
+--- !u!114 &947748801
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 205
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
+--- !u!114 &947748802
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7507,68 +7491,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: I\u2019m taking an all-lesbian pottery class\u2013\u2013we\u2019re
-      making incense holders!"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &947748801
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 210
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: What are you doing after this? Personally, I\u2019ve
-      got to head out."
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &947748802
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 209
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Sad: I\u2019d say I have no idea why they didn\u2019t accept
-      me, but it\u2019s probably because I\u2019m not a nepo baby\u2026sigh"
+    stringVal: "Aiden Happy: Nice choice! I had some amazing Green Tea when I studied
+      abroad in Shanghai last summer. After you\u2019ve had the real thing, nothing
+      beats it\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7593,12 +7518,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 208
+  itemId: 210
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: You go to school on this campus, right? I like it
-      here fine, but I was really bummed when I didn\u2019t get into Spelman."
+    stringVal: "Aiden Disgusted: Damn man, there\u2019s a ton of processed sugars
+      in that. I mean hey, if you don\u2019t care about your heart health, then I
+      won\u2019t pry\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7623,14 +7549,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 207
+  itemId: 209
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: Have you ever heard of Clairo? Don\u2019t feel bad
-      if you haven\u2019t, not a lot of people have found her yet.\nI\u2019m also
-      really into Lana (Del Rey) and Steve Lacy. Their sound is so visceral, but
-      I like their early stuff better."
+    stringVal: "Aiden Disgusted: You know soy farming is like, super bad for the
+      environment, right? Whatever you say dude\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7652,27 +7576,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 206
+  itemId: 208
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: I'm super proud of my Spotify playlist, it's like\u2026really
-      niche indie."
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  storyText: "If you wish to succeed and earn a second date, try and relate to his
+    opinions, \u201Chobbies\u201D, and tastes. Good Luck!"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &947748806
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7680,59 +7602,44 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 205
+  itemId: 213
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: Alright, before we can go any further, I just gotta
-      ask\u2013\u2013what music are you into?"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
---- !u!114 &947748807
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 204
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1989158908}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: ChangeBackgroundPicture
+  targetMethodText: 'ChangeBackgroundPicture (String): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.String
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: cafe
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &947748808
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7742,28 +7649,93 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 218
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Aiden Happy: That\u2019s actually so based of you. My girl best-friend
+      told me that I\u2019m a Pisces. Maybe I can get her to tell us if we\u2019re
+      compatible! \nAiden Bored: She\u2019s never liked any of my dates before, but
+      maybe you\u2019ll be the first\u2026"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &947748809
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 217
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Aiden Sad: Not gonna lie, that\u2019s kind of really wasteful bro.
+      You know all of those clothes that you\u2019re only gonna wear once go straight
+      to landfills, right?\nAiden Happy: That\u2019s why I get all of my fits from
+      the church\u2019s lost and found bin. Reduce, reuse, recycle baby\u2026"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &947748810
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 216
   indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1989158908}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &947748809
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Aiden Bored: That\u2019s fun and all, but you\u2019ve never really
+      travelled unless you\u2019ve been backpacking. \nPeople today are so zombie-coded
+      and attached to their phones, but nature\u2019s where it's at for real\u2026 "
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &947748811
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7793,67 +7765,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &947748810
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 214
-  indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 1989158908}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
---- !u!114 &947748811
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947748622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 227
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: Here\u2019s my business card for the freelance photography
-      business I\u2019m starting up. My number\u2019s on the back. Text me and we
-      can get a real dinner sometime ;)"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &947748812
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7866,12 +7777,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 226
+  itemId: 214
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: And now\u2026I\u2019d like to give it to you. I\u2019m
-      so glad that we got to hang together today."
+    stringVal: "Aiden Neutral: Now that we\u2019re settled, I\u2019d love to learn
+      more about you.\nSo, what do you like to do for fun? Personally, I love reading
+      and writing music. \nI\u2019ve been getting a lot of really good book recommendations
+      from my Contemporary Feminist Literature course\u2026\nAiden Happy: And I\u2019ve
+      just only started playing the guitar, but my mom says I\u2019m really good.
+      I think I might start a band! \nGotta escape corporate America, right?!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7893,28 +7808,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 225
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: This is my most prized possession. My special edition
-      Labubu.\nI took it off of a highschooler\u2019s purse on the septa. I just
-      felt like I was meant to have it, you know?"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1989158908}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &947748814
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7931,11 +7845,10 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: Wow\u2026that was\u2026that was really great. I had
-      an awesome time. Are\u2013\u2013are  you picking the vibe that I\u2019m getting
-      right now?\nYou know, I don\u2019t use the word \u2018soulmate\u2019 too often,
-      but, I just feel like our auras are in complete sync!\nI would really like
-      to see you again. Wait\u2013\u2013hold on a sec!"
+    stringVal: "Aiden Neutral: You go to school on this campus, right? I like it
+      here fine, but I was really bummed when I didn\u2019t get into Spelman. \nAiden
+      Sad: I\u2019d say I have no idea why they didn\u2019t accept me, but it\u2019s
+      probably because I\u2019m not a nepo baby\u2026sigh.\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7964,8 +7877,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: I\u2019d like to have more civil discourses with you
-      in the future :)"
+    stringVal: "Aiden Sad: I mean, cool, I guess? Sorry, I just can\u2019t get into
+      it. I like music where you can actually understand what the artist is saying\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -7994,9 +7907,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: 'Aiden Neutral: Some of your takes were kind of mid tbh, but I read
-      on twitter that you should surround yourself with people who challenge you
-      or something.'
+    stringVal: "Aiden Sad: Deep cut man, I\u2019m into it. I feel you, I was totally
+      born in the wrong generation\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8025,8 +7937,9 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: That was nice, yeah? I feel that we connected tonight\u2013\u2013you\u2019re
-      like, really chill. Can I get your Insta? We should stay in touch."
+    stringVal: "Aiden Angry: C\u2019mon, that's so basic! I can\u2019t believe you
+      actually like that teeny-bopper trash. Pop\u2019s not even, like, real music,
+      you know\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8048,28 +7961,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 220
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Mad: You know what, you\u2019re such a poser for real! Reddit
-      told me that this was how I\u2019m supposed to act to get some bitches, but
-      honestly, after this I\u2019d rather be single. I\u2019m out >:("
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1989158908}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &947748819
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8086,8 +7998,13 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Sad: What do you mean that doesn\u2019t make sense!? Whatever,
-      I haven\u2019t seen the movie."
+    stringVal: "Aiden Neutral: Alright, before we can go any further, I just gotta
+      ask\u2013\u2013what music are you into?\nAiden Happy: I\u2019m super proud
+      of my Spotify playlist, it's like\u2026really niche indie.\nAiden Bored: Have
+      you ever heard of Clairo? Don\u2019t feel bad if you haven\u2019t, not a lot
+      of people have found her yet.\nI\u2019m also really into Lana (Del Rey) (she's
+      super niche) and Steve Lacy. Their sound is so visceral, but I like their early
+      stuff better."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8102,96 +8019,105 @@ MonoBehaviour:
     booleanVal: 1
 --- !u!114 &947748820
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 218
+  itemId: 243
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Disgust: Let me put it this way: I\u2019m like Dr. Jekyll,
-      and you\u2019re like Mr. Hyde. We\u2019re just too different, we could never
-      date."
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
 --- !u!114 &947748821
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 217
+  itemId: 242
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral:  No offense man, but I just don\u2019t think we vibe
-      that well."
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: ChangeBackgroundPicture
+  targetMethodText: 'ChangeBackgroundPicture (Sprite): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      typeFullname: UnityEngine.Sprite
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 6571217160865869827, guid: eab9de71eb6464e8d8262c1773f23881, type: 3}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &947748822
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 230
+  itemId: 241
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: Nice choice! I had some amazing Green Tea when I studied
-      abroad in Shanghai last summer. After you\u2019ve had the real thing, nothing
-      beats it\u2026"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
 --- !u!114 &947748823
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8201,28 +8127,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 229
+  itemId: 240
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Disgust: Damn man, there\u2019s a ton of processed sugars in
-      that. I mean hey, if you don\u2019t care about your heart health, then I won\u2019t
-      pry\u2026"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1989158908}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &947748824
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8235,12 +8160,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 228
+  itemId: 239
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Angry: Soy? Really!? You know soy farming is like, super bad
-      for the environment, right? Whatever you say dude\u2026"
+    stringVal: "Aiden: This is my most prized possession. My special edition Labubu.\nI
+      took it off of a highschooler\u2019s purse on the SEPTA. I just felt like I
+      was meant to have it, you know?\nAiden: And now\u2026I\u2019d like to give
+      it to you."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8265,13 +8192,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 242
+  itemId: 238
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Disgust: Uhh, I don\u2019t know about that, man. All of that
-      stuff was either made by colonizers, or bought by colonizers. Idk about you,
-      but that\u2019s really not my scene\u2026"
+    stringVal: "Aiden Happy: Wow\u2026that was\u2026that was really great. I had
+      an awesome time. Are\u2013\u2013are  you picking the vibe that I\u2019m getting
+      right now?\nYou know, I don\u2019t use the word \u2018soulmate\u2019 too often,
+      but, I just feel like our auras are in complete sync!\nI would really like
+      to see you again. Wait\u2013\u2013hold on a sec!"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8293,28 +8222,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 241
+  itemId: 237
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: I love the farmer\u2019s market\u2013\u2013you\u2019ve
-      just gotta support local businesses, you know? I buy my adderall there from
-      the guy behind the porta-potties, he\u2019s legit\u2026"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1989158908}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &947748827
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8327,12 +8255,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 240
+  itemId: 236
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: Ooh, are you gonna see that new foreign film? You
-      have to go to the showing without subtitles, it really enhances the experience\u2026"
+    stringVal: "Aiden Happy: That was nice, yeah? I feel that we connected tonight\u2013\u2013you\u2019re
+      like, really chill. Can I get your Insta? We should stay in touch.\nAiden Sad:
+      Some of your takes were kind of mid tbh, but I read on twitter that you should
+      surround yourself with people who challenge you or something.\nAiden Neutral:
+      I\u2019d like to have more civil discourses with you in the future :)"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8354,28 +8285,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 239
+  itemId: 235
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Disgust: Damn, you really wanna be another corporate drone,
-      huh? Hope you know how to bark, cause that\u2019s all you're gonna be doing
-      once they get you on the leash for real\u2026"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1989158908}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &947748829
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8388,12 +8318,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 238
+  itemId: 234
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Neutral: You know what? Respect man. Teachers are, like, the
-      real heroes\u2026"
+    stringVal: "Aiden Sad: No offense man, but I just don\u2019t think we vibe that
+      well.\nAiden Bored: Let me put it this way: I\u2019m like Dr. Jekyll, and you\u2019re
+      like Mr. Hyde. We\u2019re just too different, we could never date.\nAiden Angry:
+      What do you mean that doesn\u2019t make sense!? Whatever, I haven\u2019t seen
+      the movie.\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8418,12 +8351,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 237
+  itemId: 233
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: I love that for you. We really need to see more strong
-      women in office. The white house probably needs more secretaries anyways\u2026"
+    stringVal: "Aiden Disgusted: Uhh, I don\u2019t know about that, man. All of that
+      stuff was either made by colonizers, or bought by colonizers. Idk about you,
+      but that\u2019s really not my scene\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8448,13 +8382,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 236
+  itemId: 232
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Bored: I mean, cool, I guess? Sorry, I just can\u2019t get
-      into it. I like music where you can actually understand what the artist is
-      saying\u2026"
+    stringVal: "Aiden Happy: I love the farmer\u2019s market\u2013\u2013you\u2019ve
+      just gotta support local businesses, you know? \nAiden Sad: I buy my adderall
+      there from the guy behind the porta-potties, he\u2019s legit\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8479,12 +8413,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 235
+  itemId: 231
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: Deep cut man, I\u2019m into it. I feel you, I was totally
-      born in the wrong generation\u2026"
+    stringVal: "Aiden Neutral: Ooh, are you gonna see that new foreign film? You
+      have to go to the showing without subtitles, it really enhances the experience\u2026\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8506,28 +8440,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 234
+  itemId: 230
   indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: "Aiden Disgust: C\u2019mon, that's so basic! I can\u2019t believe
-      you actually like that teeny-bopper trash. Pop\u2019s not even, like, real
-      music, you know\u2026"
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1989158908}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &947748834
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8540,14 +8473,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 233
+  itemId: 229
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Happy: That\u2019s actually so based of you. My girl best-friend
-      told me that I\u2019m a Pisces. Maybe I can get her to tell us if we\u2019re
-      compatible! She\u2019s never liked any of my dates before, but maybe you\u2019ll
-      be the first\u2026"
+    stringVal: "Aiden Neutral: What are you doing after this? Personally, I\u2019ve
+      got to head out.\nAiden Happy: I\u2019m taking an all-lesbian pottery class\u2013\u2013we\u2019re
+      making incense holders! \nAiden Neutral: I really love it there, it\u2019s
+      such an accepting space. They let me join cause apparently they \u201Care not
+      intimidated by me.\u201D\nAiden Boared: I don\u2019t really know what that
+      means, but I think I\u2019m just that good of an ally.\n"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8572,14 +8507,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 232
+  itemId: 228
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Sad: Not gonna lie, that\u2019s kind of really wasteful bro.
-      You know all of those clothes that you\u2019re only gonna wear once go straight
-      to landfills, right? That\u2019s why I get all of my fits from the church\u2019s
-      lost and found bin. Reduce, reuse, recycle baby\u2026"
+    stringVal: "Aiden Disgusted: Damn, you really wanna be another corporate drone,
+      huh? Hope you know how to bark, cause that\u2019s all you're gonna be doing
+      once they get you on the leash for real\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8604,13 +8538,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 231
+  itemId: 227
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Bored: That\u2019s fun and all, but you\u2019ve never really
-      travelled unless you\u2019ve been backpacking. People today are so zombie-coded
-      and attached to their phones, but nature\u2019s where it's at for real\u2026 "
+    stringVal: "Aiden Neutral: You know what? Respect man. Teachers are, like, the
+      real heroes\u2026"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -8632,54 +8565,190 @@ MonoBehaviour:
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 243
+  itemId: 226
   indentLevel: 0
-  _sceneName:
+  conversationText:
     stringRef: {fileID: 0}
-    stringVal: GameOver
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
+    stringVal: "Aiden Neutral: I love that for you. We really need to see more strong
+      women in office. The white house probably needs more secretaries anyways\u2026"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &947748838
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 248
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1989158908}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &947748839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 247
+  indentLevel: 0
+  conversationText:
+    stringRef: {fileID: 0}
+    stringVal: "Aiden Happy: I\u2019m so glad that we got to hang together today.\nThen,
+      Aiden hands you a small slip from his pocket.\nHere\u2019s my business card
+      for the freelance photography business I\u2019m starting up. My number\u2019s
+      on the back. Text me and we can get a real dinner sometime ;) \n"
+  clearPrevious:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForInput:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  waitForSeconds:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  fadeWhenDone:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &947748840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 246
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: ChangeBackgroundPicture
+  targetMethodText: 'ChangeBackgroundPicture (Sprite): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      typeFullname: UnityEngine.Sprite
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: -692078636420456154, guid: c5d85be05026d4d6eba3f187f75f4b7b, type: 3}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &947748841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 245
   indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: End
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &947748839
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeOut
+  targetMethodText: 'FadeOut (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
+--- !u!114 &947748842
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947748622}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 244
   indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: End
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: FadeIn
+  targetMethodText: 'FadeIn (): IEnumerator'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Collections.IEnumerator
+  showInherited: 0
+  callMode: 2
 --- !u!1 &1013483221
 GameObject:
   m_ObjectHideFlags: 0
@@ -9106,7 +9175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 0.05
+  fadeDuration: 0.25
   continueButton: {fileID: 695469355}
   dialogCanvas: {fileID: 1502046432}
   nameText: {fileID: 99241353}
@@ -9243,9 +9312,9 @@ MonoBehaviour:
   portraitCanvas: {fileID: 375920573}
   dimPortraits: 1
   dimColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  fadeDuration: 0.75
+  fadeDuration: 0.25
   moveDuration: 1
-  fadeEaseType: 4
+  fadeEaseType: 0
   shiftOffset: {x: 0, y: 0}
   defaultPosition: {fileID: 752666233}
   positions:
@@ -9420,7 +9489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.84669447, g: 0.990566, b: 0.70554465, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9464,7 +9533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -750, y: 69}
+  m_AnchoredPosition: {x: -750, y: 0}
   m_SizeDelta: {x: 1500, y: 335}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1648963661
@@ -9670,7 +9739,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1302723820812287101, guid: c5d85be05026d4d6eba3f187f75f4b7b, type: 3}
+  m_Sprite: {fileID: -692078636420456154, guid: c5d85be05026d4d6eba3f187f75f4b7b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9948,11 +10017,12 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 3cbe5c014b49e4ddbbe1fbc33ac7ea13, type: 3}
-  - {fileID: 21300000, guid: c133cd8e167d246ac9a636987a72e316, type: 3}
-  - {fileID: 21300000, guid: 0f16a9052479241a086f2736c683732d, type: 3}
-  - {fileID: 21300000, guid: a1d00eab722104ca7af4c34963ed0d49, type: 3}
-  - {fileID: 21300000, guid: 401c24f7edf3e41de865836c40b568d4, type: 3}
+  - {fileID: 621222158458474870, guid: 3cbe5c014b49e4ddbbe1fbc33ac7ea13, type: 3}
+  - {fileID: -8601871783382158749, guid: bb4a16a4089b246ab82af6d44173ddf3, type: 3}
+  - {fileID: -5641202881501476452, guid: 7364484b2bf564c9d8f34f700f62e5c5, type: 3}
+  - {fileID: 7985626363670038235, guid: 0f16a9052479241a086f2736c683732d, type: 3}
+  - {fileID: 3622792381989719942, guid: a1d00eab722104ca7af4c34963ed0d49, type: 3}
+  - {fileID: -3752711834126370623, guid: 401c24f7edf3e41de865836c40b568d4, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
