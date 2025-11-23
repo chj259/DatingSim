@@ -198,6 +198,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99241351}
   m_CullTransparentMesh: 1
+--- !u!1 &261809731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261809732}
+  - component: {fileID: 261809734}
+  - component: {fileID: 261809733}
+  m_Layer: 0
+  m_Name: Upper Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &261809732
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261809731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 375920569}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 7.1021, y: -1001}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &261809733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261809731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &261809734
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261809731}
+  m_CullTransparentMesh: 1
 --- !u!1 &364230085
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +407,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 752666231}
+  - {fileID: 261809732}
   - {fileID: 1567940301}
   - {fileID: 2053102419}
   - {fileID: 423079069}
@@ -1577,6 +1653,7 @@ GameObject:
   - component: {fileID: 947748849}
   - component: {fileID: 947748848}
   - component: {fileID: 947748855}
+  - component: {fileID: 947748856}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1613,8 +1690,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 64.991936
-    y: 67.97464
+    x: 62.991936
+    y: 68.97464
     width: 75.979996
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1633,12 +1710,13 @@ MonoBehaviour:
   - {fileID: 947748629}
   - {fileID: 947748791}
   - {fileID: 947748792}
-  - {fileID: 947748633}
   - {fileID: 947748634}
+  - {fileID: 947748633}
   - {fileID: 947748639}
   - {fileID: 947748637}
   - {fileID: 947748805}
   - {fileID: 947748788}
+  - {fileID: 947748856}
   - {fileID: 947748653}
   suppressAllAutoSelections: 0
 --- !u!114 &947748625
@@ -1654,7 +1732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -172.5863, y: 225.05118}
+  scrollPos: {x: 653.01807, y: 323.52536}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1666,9 +1744,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 947748687}
+  - {fileID: 947748624}
   selectedCommands:
-  - {fileID: 947748854}
+  - {fileID: 947748856}
   variables:
   - {fileID: 947748652}
   description: 
@@ -1828,10 +1906,10 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1989158908}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 3622792381989719942, guid: a1d00eab722104ca7af4c34963ed0d49, type: 3}
+  portrait: {fileID: 21300000, guid: 487b615aaa85446fea63c6daea446bee, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 752666231}
+  toPosition: {fileID: 261809732}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -2181,7 +2259,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 432
-    y: 26.809954
+    y: 25.809954
     width: 190.52
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7297,8 +7375,8 @@ MonoBehaviour:
   indentLevel: 0
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Aiden Sad: Shit, are you okay! I\u2019m so sorry, I would never purposely
-      push a woman."
+    stringVal: "Aiden Sad Middle: Shit, are you okay! I\u2019m so sorry, I would
+      never purposely push a woman."
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -9103,6 +9181,51 @@ MonoBehaviour:
     stringVal: ' '
   description: 
   _textObjectObsolete: {fileID: 0}
+--- !u!114 &947748856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947748622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 261
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1773641708}
+  targetComponentAssemblyName: ChangeBackground, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: 'UnityEngine.Component[]'
+  targetComponentText: ChangeBackground
+  targetMethod: ChangeBackgroundPicture
+  targetMethodText: 'ChangeBackgroundPicture (Sprite): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      typeFullname: UnityEngine.Sprite
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 244484688046937412, guid: 510bd244505e74f3b8e8815fc99dfa3f, type: 3}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 2
 --- !u!1 &1013483221
 GameObject:
   m_ObjectHideFlags: 0
@@ -9402,7 +9525,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0.21568628, g: 0.25490198, b: 0.17254902, a: 1}
+  m_fontColor: {r: 0.8629829, g: 1, b: 0.7122642, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9813,6 +9936,7 @@ MonoBehaviour:
   - {fileID: 2053102419}
   - {fileID: 423079069}
   - {fileID: 649788534}
+  - {fileID: 261809732}
 --- !u!4 &1505187721
 Transform:
   m_ObjectHideFlags: 0
@@ -10512,7 +10636,8 @@ MonoBehaviour:
   - {fileID: -5641202881501476452, guid: 7364484b2bf564c9d8f34f700f62e5c5, type: 3}
   - {fileID: 7985626363670038235, guid: 0f16a9052479241a086f2736c683732d, type: 3}
   - {fileID: 3622792381989719942, guid: a1d00eab722104ca7af4c34963ed0d49, type: 3}
-  - {fileID: -3752711834126370623, guid: 401c24f7edf3e41de865836c40b568d4, type: 3}
+  - {fileID: 21300000, guid: 401c24f7edf3e41de865836c40b568d4, type: 3}
+  - {fileID: 21300000, guid: 487b615aaa85446fea63c6daea446bee, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
