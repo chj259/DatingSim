@@ -34,7 +34,7 @@ public class ChangeBackground : MonoBehaviour
     }
     IEnumerator DoFadeOut()
     {
-        while (transition < 0.025)
+        while (transition < 0.04)
         {
             //Debug.Log(transition);
             transition += Time.deltaTime / fade_rate;
@@ -47,7 +47,7 @@ public class ChangeBackground : MonoBehaviour
     
     IEnumerator DoFadeIn()
     {
-        while (transition < 0.015)
+        while (transition < 0.03)
         {
             transition += Time.deltaTime/fade_rate;
             background_img.color = Color.Lerp(background_img.color, Color.white, transition);
